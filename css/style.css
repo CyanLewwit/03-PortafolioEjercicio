@@ -23,6 +23,7 @@
 .menu__nav{
 	width: 55%;
 	align-items: center;
+	margin-right: 1rem;
 }
 
 .menu__list{
@@ -62,6 +63,8 @@
 .title__subsection{
 	font-family: fantasy;
 	margin: 2rem 0;
+	font-size: 15px;
+	margin-right: 1rem;
 }
 
 .title__network{
@@ -152,6 +155,7 @@
 .experience__img{
 	width: 90%;
 	margin: 0 2rem;
+	margin-left: 5rem;
 }
 
 /*Contacto*/
@@ -211,4 +215,58 @@
 
 .ghost {
   display: none;
+}
+
+
+
+
+@media (max-width: 800px) {
+	.menu__nav{
+		display: none;
+	}
+
+	.experience__img{
+		width: 80%;
+	}
+
+	form input, form textarea{
+		width: 250px;
+	}
+}
+
+
+@media (max-width: 425px) {
+
+	.menu__header{
+		width: 100%;
+	}
+
+		.title__profile{
+		display: none;	
+	}
+
+	.title__container{
+		margin-left: 2rem;
+	}
+
+	.skills__line{
+		flex-wrap: wrap;
+	}
+
+	.hobbies__line{
+		flex-wrap: wrap;
+	}
+
+	.academic__courses{
+		flex-direction: column;
+	}
+
+	.experience__img{
+		width: 60%;
+		margin-bottom: 2rem;
+	}
+
+	.formcontato__img{
+		display: none;
+	}
 }
