@@ -249,6 +249,10 @@
 		margin-left: 2rem;
 	}
 
+	.title__network__item{
+		margin: 0 0.35rem;
+	}
+
 	.skills__line{
 		flex-wrap: wrap;
 	}
